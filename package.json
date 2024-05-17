@@ -1,0 +1,23 @@
+{
+  "name": "express-js-rest-api",
+  "version": "0.0.0",
+  "private": true,
+  "main": "nodemon server.js",
+  "scripts": {
+    "dev" : "nodemon server.js",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5", 
+    "debug": "~2.6.9",
+    "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "jade": "^0.31.2",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3"
+  }
+}
